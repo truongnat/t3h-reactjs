@@ -10,7 +10,8 @@
 - add code change to git index: git add . ( using dot equal add all file change )
 - commit code: git commit -m "change code"
 - push code: git push.
-
+- nhanh moi chua co tren git : git push --set-upstream origin [ten nhanh]
+- new co roi : git push
 - pull code: git pull origin [branch name]
 
 **user 2**
