@@ -1,7 +1,7 @@
 # t3h-reactjs
 
 
-### Example Conflict git
+### Senario Conflict git
 
 **user 1**
 - clone project: git@github.com:truongnat/t3h-reactjs.git
