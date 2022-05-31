@@ -9,7 +9,7 @@
 - modify code in "index.html" file => save
 - add code change to git index: git add . ( using dot equal add all file change )
 - commit code: git commit -m "change code"
-- push code: git push.
+- push code:     git push --set-upstream origin [new branch]
 
 
 **user 2**
