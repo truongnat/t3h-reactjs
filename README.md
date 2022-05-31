@@ -11,6 +11,7 @@
 - commit code: git commit -m "change code"
 - push code: git push.
 
+- pull code: git pull origin [branch name]
 
 **user 2**
 same action user 1.
