@@ -79,7 +79,7 @@ input:hover {
   background-size: cover;
 }
 
-.WrapQR:hover{
-    background-image: url("./qrcode_22054186_.png");
-    cursor: pointer;
+.WrapQR:hover {
+  background-image: url("./qrcode_22054186_.png");
+  cursor: pointer;
 }
