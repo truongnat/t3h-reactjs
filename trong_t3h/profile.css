@@ -1,0 +1,16 @@
+.card {
+    text-align: center;
+    margin: auto;
+    max-width: 300px;
+    box-shadow: 0 4px 8px 0 black;
+    background-color: antiquewhite;
+}
+
+body {
+    background-image: url(https://s3.cloud.cmctelecom.vn/tinhte1/2013/04/3338558_field_6-wallpaper-1920x1080.jpg);
+}
+
+.title {
+    font: 50px;
+    font-style: italic;
+}
