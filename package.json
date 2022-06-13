@@ -1,0 +1,23 @@
+{
+  "name": "t3h-reactjs",
+  "version": "1.0.0",
+  "description": "![image](https://user-images.githubusercontent.com/87919564/171207221-3dced97e-7458-412a-b47a-f1aee9bf6c30.png)\r - Click vào nút edit\r ![image](https://user-images.githubusercontent.com/87919564/171207410-f331b37c-832d-4cc8-bdf0-4ad8621f7176.png)",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/truongnat/t3h-reactjs.git"
+  },
+  "keywords": [
+    "t3h",
+    "reactjs"
+  ],
+  "author": "truongdq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/truongnat/t3h-reactjs/issues"
+  },
+  "homepage": "https://github.com/truongnat/t3h-reactjs#readme"
+}
