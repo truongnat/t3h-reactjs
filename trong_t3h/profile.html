@@ -3,47 +3,188 @@
     <head id="Facebook" lang="vi" dir="ltr">
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
         <link rel="stylesheet" href="profile.css">
-        <link rel="stylesheet" href="https://icons.getbootstrap.com/">
+        <script src="https://kit.fontawesome.com/0039939190.js" crossorigin="anonymous"></script>
         <title>Nguyen Trong's profile</title>
     </head>
 
     <body>
-      <div class="cover-image">
-          <button class="btn">Thêm hình ảnh</button>
-          <i class="bi bi-camera-fill"></i>
-          <img src="./anh-la-co-viet-nam-dep-1.png" alt="ảnh bìa"> 
+      <!-- ảnh bìa -->
+      <div class="container">
+        <div class="row">
+          <div class="col-x1-1 col-0"></div>
+          <div class="col-x1-10 col-12 img_area">
+            <button type="button" class="btn_btn-light">
+              <i class="fa-solid fa-camera">Thêm hình ảnh</i>
+            </button>
+          </div>
+          <div class="col-xl-1 col-0"></div>
+        </div>
+
       </div>
 
-      <div>
-          <h1>Nguyễn Trọng</h1>
-      </div>
-      <div>
-          <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-              <button type="button" class="btn btn-secondary">Bài viết</button>
-              <button type="button" class="btn btn-secondary">Giới thiệu</button>
-              <button type="button" class="btn btn-secondary">Bạn bè</button>
-              <button type="button" class="btn btn-secondary">Ảnh</button>
-              <button type="button" class="btn btn-secondary">Video</button>
-              <button type="button" class="btn btn-secondary">Check in</button>
-            
-              <div class="btn-group" role="group">
-                <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                  xem thêm 
+      <!-- avatar -->
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="row">
+              <div class="col-4">
+                <img src="./IMG_0053.jpg" alt="avatar" class="rounded-circle">
+              </div>
+              <div class="col-8">
+                <p class="name">
+                  <strong>Nguyễn Trọng</strong>
+                </p>
+                <p class="friend-number">4,8k bạn bè</p>
+    
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="row">
+              <div class="col-6">
+                <div class="story">
+                <button type="button" class="btn btn-primary">
+                  <i class="ti-plus">
+                  thêm vào tin
+                  </i>
                 </button>
-                <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                  <a class="dropdown-item" href="#">Thể thao</a>
-                  <a class="dropdown-item" href="#">Âm nhạc</a>
-                  <a class="dropdown-item" href="#">sở thích</a>
-                  <a class="dropdown-item" href="#">Phim</a>
-                  <a class="dropdown-item" href="#">Sự kiện</a>
+              </div>
+              </div>
+              <div class="col-6">
+                <div></div>
+                <button type="button" class="btn btn-light">
+                  <i class="ti-pencil">
+                      <strong>Chỉnh sửa trang cá nhân</strong>
+                  </i>
+                </button>
                 </div>
               </div>
             </div>
+          </div>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">  
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">bài viết <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">giới thiệu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">bạn bè</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">video</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ảnh</a>
+                
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">checkin</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  xem thêm
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">thể thao</a>
+                  <a class="dropdown-item" href="#">âm nhạc</a>
+                  <a class="dropdown-item" href="#">phim</a>
+                </div>
+              </li>
+            </ul>
+            <p>
+              <a class="btn btn-dark" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">...</a>
+            </p>
+            <div class="row">
+              <div class="col">
+                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                  <div class="card card-body">
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">bài viết<span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">giới thiệu</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">bạn bè</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">video</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">ảnh</a> 
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </nav>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="row">
+              <div class="col-5">
+                <div class="introduce">
+                  <p style="font-size: 30px;font: bold;">Giới thiệu</p>
+                  <p style="text-align: center;font-style: italic; font-size: 20px;">Transporter 3M</p>
+                  <div style="text-align: center;">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
+                  <button type="button" class="btn btn-primary-dark btn-xd btn-block">Chỉnh sửa</button>
+                  <i class="fa-solid fa-briefcase">Làm việc tại CLB Nghệ thuật Hội Máu</i><br>
+                  <i class="fa-solid fa-briefcase">Tình nguyện viên tại Đội Thanh niên vận động hiến máu Học viện Kỹ thuật mật mã</i><br>
+                  <i class="fa-solid fa-briefcase">Tình nguyện viên tại Chi hội Thanh niên vận động hiến máu 26/3</i><br>
+                  <i class="fa-solid fa-briefcase">Làm việc tại Hội Thanh niên vận động hiến máu Hà Nội</i><br>
+                  <i class="fa-solid fa-graduation-cap">Từng học tại Học viện Kỹ thuật mật mã</i><br>
+                  <i class="fa-solid fa-graduation-cap">Đã học tại Trường THPT Tây Tiền Hải</i><br>
+                  <i class="fa-solid fa-house-chimney">Sống tại Thái Bình, Thái Bình, Vietnam</i><br>
+                  <i class="fa-solid fa-location-dot">Đến từ Tiền Hải</i><br>
+                  <i class="fa-solid fa-heart">Độc thân</i><br>
+                  <button type="button" class="btn btn-primary-dark btn-xd btn-block">Chỉnh sửa sở thích</button>
+                  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./IMG_6851.jpg" class="d-block w-50" alt="...">
+                        <img src="./IMG_0053.jpg" class="d-block w-50" alt="...">
+                        <img src="./IMG_9244.jpg" class="d-block w-50" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        
+                      </div>
+                      <div class="carousel-item">
+                        
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
