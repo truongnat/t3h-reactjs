@@ -97,13 +97,7 @@ a{
     cursor: pointer;
    
  }
- @media only screen and (max-width: 600px){
-    .menu__center
-    {
-        display: none;
-        
-    }
-  }  
+ 
 .menu__center-navbar-item:hover {
    opacity: 0.5;
    background-color: #242526;
@@ -427,8 +421,8 @@ height: 36px;
 opacity: 2;
 margin: 0 10px;
 }
-.edit__attention{
-    margin-top: -10px;
+.edit__attention p{
+   margin: 4px;
 }
 .edit__detail:hover{
     opacity: 0.7;
@@ -481,7 +475,7 @@ margin: 20px 10px;
 .all__img-you{
     background-color: var(--color-all);
     border-radius: 6px;
-    height: 670px;
+    
 }
 .all__img{
     margin-top: 10px;
@@ -518,23 +512,17 @@ margin: 10px 10px;
 .seen__all-you:hover p{
     background-color:#e4e6eb;
 }
+.display__img{
+    max-width: 400px;
+}
+.display__name{
+    display: flex;
+   
+   
+}
 .display__img-my{
- justify-content: center;
-   padding: 2px 0;
-   border-radius: 6px;
-  margin: 10px 2px 5px 5px;
-  opacity: 1;
+    margin: 0 5px 10px 10px;
 }
-.display__img-my-link{
-   margin-top: 10px;
-   /* filter: drop-shadow(0 0 5px blue); */
-}
-.display__img-friends{
-    width: 400px;
-  display: flex;
- 
-}
-
 /* right */
 .col__width-right{
     width: 602px; 
@@ -550,6 +538,8 @@ margin: 10px 10px;
     margin-top: 10px; 
 }
 .my__profile{
+    margin-top: 5px;
+    margin-left: 5px;
     width: 40px;
     height: 40px;
     margin-right: 5px;
@@ -563,6 +553,8 @@ margin: 10px 10px;
 }
 .my__search{
     width: 100%;
+    margin-right: 5px;
+    margin-top: 5px;
 }
 .my__search input{
     width: 100%;
@@ -634,12 +626,14 @@ margin: 10px 10px;
      border-bottom:1px solid #484848;
 }
 .post__you p {
-    color:#e4e6eb;
+margin-top: 5px;
+margin-left: 5px;
+color:#e4e6eb;
 font-size:20px;
 font-weight:700;
 line-height:24px;
 text-align: center;
-margin: auto;
+
 
 
 
@@ -804,3 +798,4 @@ height: 40px;
 background-color:#585858;
 border-radius: 10px;
 }
+
