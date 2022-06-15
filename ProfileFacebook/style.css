@@ -19,12 +19,15 @@
 .rounded-circle{
     width: 150px;
     height: 150px;
+    margin-top: -40px;
+    border:2px solid white;
     
     
     
 }
 .name{
-    font-size: 16px;
+    font-size: 20px;
+    margin: 10px;
     
 }
 
@@ -35,6 +38,9 @@
     border-radius: 50%;
     float: left;
     
+}
+#navbar{
+    margin-top: 20px;
 }
 .profile-info{
     display: flex;
@@ -118,6 +124,7 @@
     height: 50px;
     border: 0;
     margin-right: 20px;
+    border-radius: 50%;
 }
 .write{
     display: flex;
@@ -131,6 +138,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 5px;
 }
 .video i{
     /* display: flex; */
@@ -138,14 +146,22 @@
     justify-content: center;
     margin: 5px;
     
+    
 }
-.profile-post-top{
+.profile-posts-top{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 5px;
 
 }
-
+.profile-posts-bottom{
+    border-top: 1px solid black;
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
     
 
 
