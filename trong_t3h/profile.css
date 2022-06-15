@@ -53,6 +53,8 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 
-.carousel-item{
+.carousel{
     display: flexbox;
+    align-items: center;
+    height: 300px;
 }
