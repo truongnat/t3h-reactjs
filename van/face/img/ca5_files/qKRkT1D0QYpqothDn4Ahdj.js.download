@@ -1,0 +1,8 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
+
+__d("useOnRoutableDialogClose",["CometRouteRenderType","react","useCometRouterDispatcher"],(function(a,b,c,d,e,f,g){"use strict";var h=d("react").useCallback;function a(a){a===void 0&&(a="/");var b=d("CometRouteRenderType").useIsPushView(),e=c("useCometRouterDispatcher")(),f=d("CometRouteRenderType").useIsHosted();return h(function(){if(e)if(e.popPushView&&b)return e.popPushView();else if(e.goBack&&f)return e.goBack();else return e.go(a,{target:"self"})},[a,e,f,b])}g["default"]=a}),98);
+__d("useProfileFormField",["react"],(function(a,b,c,d,e,f,g){"use strict";var h=d("react").useState;function a(a){var b=h(a),c=b[0];b=b[1];a=JSON.stringify(c)!==JSON.stringify(a);return[c,b,a]}g["default"]=a}),98);/*FB_PKG_DELIM*/
+__d("LSDeleteThenInsertMessageRequest",[],(function(a,b,c,d,e,f){function a(){var a=arguments,b=a[a.length-1];b.n;var c=[];return b.seq([function(c){return b.db.table(34).put({threadKey:a[0],messageRequestStatus:a[2]})},function(a){return b.resolve(c)}])}e.exports=a}),null);
+__d("CometFeedPreferencesReactionPageQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="5595611747176953"}),null);
+__d("CometWeatherLeftRailContainerQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="3148328598529572"}),null);
+__d("CometWeatherRootQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="3665528530180564"}),null);
