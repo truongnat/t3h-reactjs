@@ -21,22 +21,27 @@ body{
 }
 
 .rounded-circle{
-    display: block;
-    width: 180px;
-    height: 179px;
+    width: 150px;
+    height: 150px;
+    margin-top: -30px;
+    border:2px solid white;
 }
 
 .name{
     color: white;
     font-size: 30px;
-    margin-left: 0px;
-    margin-top: 50px;
+    margin-left: -20px;
+    margin-top: 10px;
 }
 
 .friend-number{
     color: whitesmoke;
     margin-top: -14px;
-    margin-left: 0px;
+    margin-left: -20px;
+}
+
+#navbar{
+    margin-top: 30px;
 }
 
 .story{
