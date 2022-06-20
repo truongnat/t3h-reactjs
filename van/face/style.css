@@ -717,7 +717,7 @@ height: 40px;
     border-bottom: 2px solid #385898;
 }
 
-/* nội dung bạn đăng */
+/* content of post */
 
 .content__of-my{
     height: 630px;
@@ -792,7 +792,6 @@ height: 40px;
     display: flex;
     align-self: center;
      padding: 8px 0;
-   
 }
 .feel__like:hover{
 background-color:#585858;
