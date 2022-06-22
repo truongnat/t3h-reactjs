@@ -1,9 +1,10 @@
 .img_area{
-    background-image: url("https://img4.thuthuatphanmem.vn/uploads/2020/05/07/hinh-anh-superman-dep_094429904.jpg");
-    background-size: cover;
+    background-image: url("ảnh/bia.jpg");
+    background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
     height: 350px;
+    width: 100%;
     position: relaive; 
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -56,13 +57,13 @@
     flex-basis: 65%;
 }
 .profile-intro{
-    background: rgb(252, 201, 201);
+    background: rgb(250, 245, 245);
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 4px;
 }
 .profile-post{
-    background: rgb(194, 192, 192);
+    background: rgb(250, 245, 245);
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 4px;
