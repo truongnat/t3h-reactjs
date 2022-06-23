@@ -78,7 +78,7 @@ html {
     margin-bottom: 10px;
     background-color: aqua;
     overflow: hidden;
-    height: 165px;
+    max-height: 184px;
 }
 
 .hot-news__item {
@@ -122,7 +122,8 @@ html {
     margin-bottom: 10px;
     display: block;
     overflow: hidden;
-    height: 165px;
+    max-height: 184px;
+
 }
 
 .orther-news__img {
@@ -135,6 +136,6 @@ html {
     text-align: -webkit-auto;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 3;
 }
 

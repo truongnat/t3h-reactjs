@@ -115,7 +115,7 @@
     }
 
     .hot-news__content p {
-        margin-top: 6px;
+        margin-top: 3px;
         display: -webkit-box;
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 2;
@@ -123,16 +123,16 @@
 
     .orther-news,
     .hot-news {
-        max-height: 124px;
+        max-height: 140px;
     }
 
     .orther-news h3 {
         font-size: 1.5rem;
         line-height: 1.7rem;
         height: 3.4rem;
-        -webkit-line-clamp: 1;
+        -webkit-line-clamp: 2;
     }
     
-    
+        
 }
 
