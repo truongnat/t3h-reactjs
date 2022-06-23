@@ -15,7 +15,8 @@ header{
     display:grid;        
     grid-template-columns: 80px 80px 80px ;
     margin-right: 50px;
-    margin-top:5px ;         
+    margin-top:5px ;
+    justify-self: end;         
 }         
 a:hover{background-color: rgba(216, 27, 84, 0.788);  }
 header img {
@@ -45,8 +46,9 @@ a{
    margin-top: 10px;
 }
 .gird-2col img{
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
+    padding-left: 10px;
 }
 .gird-3col{
     width: 920px;
