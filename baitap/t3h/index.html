@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .img {
+        height: 200px;
+    }
+
+    .box-img {
+        display: flex;
+        justify-content: center;
+    }
+    .card {
+        display: none;
+        background-color: pink;
+        height: 50px;
+        border: 1px solid;
+    }
+    .dropdown-menu{
+        display: none;
+        width: 120px;
+    }
+    .dropdown-item{
+        display: block;
+        text-decoration: none;
+        color: black;
+        border: 1px solid gray;
+    }
+    .dropdown-item:hover{
+        background-color: gray;
+    }
+    
+</style>
+
+<body>
+    <div class="box-img">
+        <button class="buttonLeft">NEXT --</button>
+        <img class="img" src="" alt="">
+        <button class="buttonRight">NEXT ++</button>
+    </div>
+    <div>
+        <button class="button">Link with href</button>
+        <div class="card">
+            <p class="text">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+            </p>
+        </div>
+    </div>
+    <div>
+        <button class="button-dropdown">Dropdown button</button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+    </div>
+    <div class="list-img">
+
+    </div>
+</body>
+<script src="./main.js">
+
+</script>
+
+</html>
