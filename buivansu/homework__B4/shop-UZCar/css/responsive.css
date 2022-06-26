@@ -1,0 +1,24 @@
+/* >= Mobile */
+@media (max-width: 739px) {
+
+}
+
+/* >= Tablet */
+@media (min-width: 740px) {
+
+}
+
+/* Tablet - PC low resolution */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
+
+/* > PC low resolution */
+@media (min-width: 1024px) and (max-width: 1239px) {
+
+}
+
+/* PC medium resolution > */
+@media (min-width: 1240px) {
+    
+}
