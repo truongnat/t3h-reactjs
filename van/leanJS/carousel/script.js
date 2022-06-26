@@ -9,7 +9,6 @@
   app.classList = ["container flex center"];
   var cacheID = 0;
 
-  console.log(carouselContainer);
   
   var carouselContainer = document.createElement("div");
   var indexSlide = document.createElement("img");
