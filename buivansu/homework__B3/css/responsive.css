@@ -35,8 +35,7 @@
     }
 
     .hot-news__img {
-        display: block;
-        height: 100%;
+        width: 100%;
     }
 
 }
@@ -88,6 +87,10 @@
     li.t-0 {
         display: none;
     }
+
+    .orther-news h3 {
+        -webkit-line-clamp: 2;
+          }
 }
 
 /* > PC low resolution */
