@@ -77,7 +77,6 @@ html {
 
 .hot-news {
     margin-bottom: 10px;
-    background-color: aqua;
     overflow: hidden;
     max-height: 180px;
 }
@@ -134,6 +133,7 @@ html {
 .orther-news h3 {
     font-size: 1.5rem;
     line-height: 1.6rem;
+    color: var(--text-color);
     text-align: -webkit-auto;
     display: -webkit-box;
     -webkit-box-orient: vertical;
