@@ -12,4 +12,3 @@ element.addEventListener("click", function(){
 });
 
 
-console.log(textnode);
