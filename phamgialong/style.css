@@ -82,3 +82,20 @@ i {
     line-height: 22px;
     margin-top: 10px;
 }
+.column {
+    width: 100%;
+}
+@media (min-width:600px) {
+    .column {
+        width: 50%;
+    }
+}
+.hi {
+
+table{border: 2px solid red;}
+  th{border: 5px dotted black;}
+  td{border: 1px dashed blue;}
+ table{border-collapse: collapse;}
+ td{padding: 20px 40px;}
+ table,th,td{border: 1px solid black;}
+}
