@@ -8,8 +8,9 @@ var home = document.createElement("i");
 var messenger = document.createElement("i");
 var post = document.createElement("i");
 var avatarIcon = document.createElement("img");
+var wrapSearch = document.createElement("div");
 
-container.style.borderBottom = "1px solid black"
+container.style.borderBottom = "1px solid black";
 headerContainer.src =
   "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/840px-Instagram_logo.svg.png";
 
@@ -20,27 +21,35 @@ headerContainer.style.width = 15 + "%";
 headerContainer.style.height = 15 + "%";
 searchBox.type = "search";
 searchBox.placeholder = "Search";
-searchBox.classList = ["form-control mr-sm-2 bg-light search pr-5 border-0"];
+searchBox.classList = ["search-box form-control mr-sm-2 bg-light search pr-5 border-0"];
 searchBox.style.width = 300 + "px";
 searchBox.style.height = 50 + "px";
-home.classList = ["fa-solid fa-house"];
-messenger.classList = ["fa-brands fa-facebook-messenger"];
-post.classList = ["fa-solid fa-circle-plus"];
+home.classList = ["fa-solid fa-house h4 mb-0"];
+messenger.classList = ["fa-brands fa-facebook-messenger h4 mb-0"];
+post.classList = ["fa-solid fa-circle-plus h4 mb-0"];
 avatarIcon.src = "./Photos/avatar.jpeg";
 avatarIcon.style.width = 30 + "px";
 avatarIcon.style.height = 30 + "px";
 avatarIcon.style.borderRadius = 50 + "%";
 
+wrapSearch.classList =
+  ["position-relative d-flex justify-content-center align-items-center pr-4 rounded mb-3"];
+wrapSearch.style.backgroundColor = "#F8F9FA";
+
+wrapSearch.appendChild(searchBox);
+wrapSearch.appendChild(searchIcon);
+
 container.appendChild(headerContainer);
-container.appendChild(searchIcon);
-container.appendChild(searchBox);
+container.appendChild(wrapSearch);
 container.appendChild(category);
 category.appendChild(home);
 category.appendChild(messenger);
 category.appendChild(post);
 category.appendChild(avatarIcon);
+category.classList =
+  ["d-flex justify-content-between w-25 align-items-center mb-3 mr-5"];
 
-var app = document.getElementById("app");
+var album = document.getElementById("app");
 var group = document.createElement("div");
 group.classList = ["group-image"];
 
@@ -74,4 +83,4 @@ for (let i = 0; i < images.length; i++) {
   group.appendChild(image);
 }
 
-app.appendChild(group);
+album.appendChild(group);

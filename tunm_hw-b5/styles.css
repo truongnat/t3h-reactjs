@@ -24,27 +24,41 @@
   margin-top: 20px;
 }
 
-.edit-infor {
-    
-}
 .information {
-    margin-left: auto;
-    width: 400px;
-    margin-right: auto;
+  width: 760px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .edit-infor {
-    width: 100px;
+  width: 100px;
+  height: 35px;
 }
 
 .avatar img {
-    width: 170px;
-    height: 170px;
-    border-radius: 50%;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
 }
 .follow p {
-    padding-left: 20px;
-    padding-right: 20px;
+  padding-right: 20px;
 }
 .detail-infor {
-    flex-direction: column;
+  flex-direction: column;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.types{
+  padding: 10px 30px;
+}
+.types:hover {
+  background-color:rgb(225, 221, 221);
+  border: 1px solid black;
+  border-radius:5px;
+}
+
+@media (max-width: 1023px) {
+  .search-box {
+    display: none;
+  }
 }
