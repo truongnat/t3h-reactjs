@@ -50,7 +50,7 @@ function removeAllClassActive(selector, className) {
   if (!nodeList.length) return;
   nodeList.forEach((node) => {
     node.classList.remove(className);
-  });
+  });x
 }
 
 function createTab(tabs, root) {
