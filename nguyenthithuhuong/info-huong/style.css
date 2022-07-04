@@ -1,0 +1,41 @@
+.nav {
+    justify-content: space-between;
+    display: flex;
+    background-color: rgb(143, 185, 206);
+    padding: 5px;
+    text-align: center;
+    gap: 13px;
+}
+
+.parend-img {
+    display: inline;
+}
+
+.img {
+    margin-left: 25px;
+    height: 45px;
+    width: 45px;
+}
+
+.search {
+    border: none;
+    padding: 5px;
+   position: absolute;
+   margin: auto;
+}
+
+.parend-search {
+    padding: 5px;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.item-icon {
+    margin: auto;
+    background-color: lightgrey;
+    border-radius: 400px;
+    padding: 13px;
+}
