@@ -5,3 +5,6 @@ console.log(fullName)
 confirm (fullName)
 confirm (age)
 prompt(fullName)
+var prompt = {
+    talk: function () 
+}
