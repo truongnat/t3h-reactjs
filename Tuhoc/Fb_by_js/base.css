@@ -1,0 +1,101 @@
+@media only screen and (max-width: 600px) {
+  body{
+    width: 250px;
+
+  }   
+  .text-input {
+   display: none;
+   
+    }
+    .menu__center{
+        display: none;
+    }
+    .img-Right{
+       
+        margin-left: 100px;
+        display: flex;
+    }
+    #cover-image{
+      margin-left: -15px;
+      width: 250px;
+    }
+    #cover-image.reponsive-img{
+      width: 100px;
+    }
+    #name-myself{
+      border: none;
+    }
+    .iconCamera > img{
+      display: block;
+      
+    
+    }
+    .name-myself__img > img{
+     margin-left: 80px;
+    }
+    .name {
+     margin-top: 100px;
+     position: relative;
+     position: absolute;
+     left: 100px;
+
+    }
+    .name p{
+      display: flex;
+    }
+    .add__edit-btn{
+      position: absolute;
+      top: 90px;
+      right: 0px;
+      left: 0;
+      text-align: center;
+    }
+    .add_tin button{
+      width: 100px;
+      margin-left: -50px;
+      border-radius: 5px;
+    }
+    .btn-edit button{
+      width: 100px;
+      border-radius: 5px;
+    }
+   #list-item{
+    position:relative;
+     top: 60px;
+     width: 250px;
+   }
+   li:nth-child(4),
+   li:nth-child(5),
+   li:nth-child(6)
+   {
+    display: none;
+   }
+   .nav-list li a{
+    font-size: 7px;
+   }
+   .change-color{
+    position: relative;
+    top: 60px;
+    margin-left: 0px;
+    width: 240px;
+   }
+   .status{
+    position: relative;
+    transform: translateY(110%);
+   right: 230px;
+   width: 245px;
+   }
+   .function-icon_event p {
+    display: none;
+   }
+   .carousel-item img {
+    width:72px;
+   }
+   .img__post img{
+    width: 72px;
+   }
+  }
+
+  
+
+/*  */
