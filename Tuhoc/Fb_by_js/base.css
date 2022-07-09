@@ -1,101 +1,161 @@
 @media only screen and (max-width: 600px) {
-  body{
-    width: 250px;
 
-  }   
-  .text-input {
-   display: none;
+ #menu-header{
+  width: 240px;
+  position: fixed;
+  /* z-index: 3; */
+ 
+ }
+ .yasuo{
+  background-color:rgb(48,48,48) ;
+ }
+  .input-left{
+    display: none;
+    float: left;
+  }
+  .menu-right{
+    margin-left: 60px;
+  }
+  .menu-center{
+    display: none;
+  }
+  .cover-img{
+  width: 240px;
+
+  }
+  .cover-img > img{
+    margin-left: 0;
+    max-width: 240px;
+    max-height: 100px;
+    object-fit: cover;
    
-    }
-    .menu__center{
-        display: none;
-    }
-    .img-Right{
-       
-        margin-left: 100px;
-        display: flex;
-    }
-    #cover-image{
-      margin-left: -15px;
-      width: 250px;
-    }
-    #cover-image.reponsive-img{
-      width: 100px;
-    }
-    #name-myself{
-      border: none;
-    }
-    .iconCamera > img{
-      display: block;
-      
-    
-    }
-    .name-myself__img > img{
-     margin-left: 80px;
-    }
-    .name {
-     margin-top: 100px;
-     position: relative;
-     position: absolute;
-     left: 100px;
+  }
+  .img-myself{
+   max-width: 240px;
+    /* margin: auto; */
+   margin-left: 75px;
+   display: block;
 
-    }
-    .name p{
-      display: flex;
-    }
-    .add__edit-btn{
-      position: absolute;
-      top: 90px;
-      right: 0px;
-      left: 0;
-      text-align: center;
-    }
-    .add_tin button{
-      width: 100px;
-      margin-left: -50px;
-      border-radius: 5px;
-    }
-    .btn-edit button{
-      width: 100px;
-      border-radius: 5px;
-    }
+   position: relative;
+  
+  
+  }
+  .img-mytext{
+   max-height: 50px;
+   position: relative;
+   width: 240px;
+   margin-top: -15px;
+  
+  }
+  .img-mytext p
+  {
+   text-align: center;
+  }
+  .img-friends{
+margin-left: 80px;
+  max-width: 240px;
+  }
+  .img-friends img:nth-child(1){
+    position: absolute;
+    transform: translateY(-75px);
+     left: 90px;
+  }
+  .edit-cover{
+   position: absolute;
+   background-color: aquamarine;
+   max-width: 240px;
+   height: 20px;
+   
+  
+left: 27%;
+ top: 100px;
+  
+  }
+  .self-edit{
+max-width: 240px;
+
+margin-left: 0;
+margin-right: 0;
+position: relative;
+left: 4px;
+top: 0;
+  }
    #list-item{
-    position:relative;
-     top: 60px;
-     width: 250px;
+    margin-top: 100px;
    }
-   li:nth-child(4),
-   li:nth-child(5),
-   li:nth-child(6)
+   .name-myself-all{
+    flex-direction: column;
+    
+   }
+   #list-item{
+    max-width: 240px;
+   }
+   .nav-list li:nth-child(4),
+   .nav-list li:nth-child(5),
+   .nav-list li:nth-child(6)
    {
     display: none;
    }
-   .nav-list li a{
+   .nav-item-links a{
     font-size: 7px;
    }
+  
    .change-color{
-    position: relative;
-    top: 60px;
-    margin-left: 0px;
-    width: 240px;
+    width: 220px;
+
+   }
+   .content{
+    margin-left: 9px;
+    
    }
    .status{
-    position: relative;
-    transform: translateY(110%);
-   right: 230px;
-   width: 245px;
+    width: 220px;
    }
-   .function-icon_event p {
+   .function-icon_event{
     display: none;
    }
-   .carousel-item img {
-    width:72px;
+   .self__search{
+   margin-left: 8px;
+   max-width: 240px;
+   margin-right: -8px;
    }
-   .img__post img{
-    width: 72px;
-   }
-  }
+   .self__search-status input{
+   width: 170px;
 
+   }
+   .self__search-status img {
+    margin-left: 10px;
+   }
+   .managerment-post{
+    margin-left: 8px;
+   max-width: 240px;
+   margin-right: -8px;
+   background-color: black;
+   }
+   .post{
+    width: 220px;
+   
+ 
+   }
+   .update-text{
+    background-color: rgb(48,48,48);
+   }
+   .post-status{
+    background-color:rgb(48,48,48) ;
+   }
+   .post video {
+    width: 220px;
+    height: 150px;
+   }
+   .dots-many{
+    margin-left: 20px;
+   }
+   .img__post-status{
+    margin-left: 5px;
+   }
+
+
+}
+  
   
 
-/*  */

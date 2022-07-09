@@ -8,11 +8,52 @@
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="base.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+     
+   
+    </style>
 </head>
 <body>
-   <div id="menu__header"></div> 
-   <div id ="cover-image"></div>
+<div class="yasuo">
+  <div id="menu-header"></div>
+
+   <div class="cover-img">
+    <img  style="width:600px;height: 200px; object-fit: cover; justify-content: center;text-align: center; border-radius:5px ;" src="img/ok.jpg">
+    <div class="edit-cover">
+      <div class="edit-cover-text">
+        <p onclick="myFunction()"><img src="img/camera.png">chỉnh sửa ảnh bìa</p>
+         
+          <ul id="list">
+            <li class="list-item">
+
+              <img src="img/camera.png">
+               Chọn ảnh
+
+            </li>
+            <li class="list-item">
+              <img src="img/download.png">
+              Tải xuống
+            </li>
+            <li class="list-item">
+              <img src="img/address.png">
+              Đặt lại vị trí
+            </li>
+            <li class="list-item">
+              <img src="img/remove.png">
+              Gỡ
+            </li>
+          </ul>
+        
+      </div>
+     
+    </div>
+   </div>
+
    <div id="name-myself"></div>
+
    <div id="list-item">
       <div class="list-ull">
     <ul class="nav nav-list">
@@ -42,11 +83,14 @@
       <div class="dot-more">
         <img style="width:12px;" src="img/more.png">
       </div>
+      </div>
    </div>
-   <!--  -->
-   <div class="container ok">
+   </div>
+  <div class="body-content">
+  <div class="content">
+   <div class="container ">
     <div class="row">
-       
+       <div class="col-md-5">
           <div class="change-color" >         
               <div class="introduct-self">
                 <span class="introduct">Giới Thiệu</span>
@@ -71,30 +115,29 @@
                 <button type="submit">Thêm sở thích</button>
               </div>
               <div class="carousel">
-                <div id="demo" class="carousel slide" data-ride="carousel">  
-                    <!-- The slideshow -->
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="img/3.jpg" height="500">
-                        <img src="img/1.jpg" height="500">
-                        <img src="img/2.jpg"  height="500">
-                      </div>
+              
+                  <div id="demo" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner">
+                         <div class="carousel-item active">
+                             <img src="img/1.jpg" >
+                             <img src="img/2.jpg" >
+                             <img src="img/3.jpg" >
+                         </div>
                       <div class="carousel-item">
-                        <img src="img/4.jpg" height="500">
-                        <img src="img/5.jpg" height="500">
-                        <img src="img/6.jpg" height="500">
-
+                             <img src="img/4.jpg">
+                             <img src="img/5.jpg" >
+                             <img src="img/6.jpg" >
                       </div>
-
-                    </div>
-
-                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                      <span class="carousel-control-prev-icon"></span>
-                    </a>
-                    <a class="carousel-control-next" href="#demo" data-slide="next">
-                      <span class="carousel-control-next-icon"></span>
-                    </a>
-                  </div>
+    
+                   </div>
+ 
+                       <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                         <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                          <span class="carousel-control-next-icon"></span>
+                       </a>
+                   </div>
                 </div>
                 <div class="notable-edit">
                     <button type="submit">Chỉnh sửa đáng chú ý</button>
@@ -107,19 +150,47 @@
                 <a href="">Xem tất cả ảnh </a>
               </div>
               <div class="img__post">
-               <img src="img/1.jpg">
-               <img src="img/1.jpg">
-               <img src="img/1.jpg">
-               <img src="img/1.jpg">
-               <img src="img/1.jpg">
-               <img src="img/1.jpg">
-               <img src="img/1.jpg">
-               <img src="img/1.jpg">
-               <img src="img/1.jpg">
+                <div class="gallery">                  
+                    <img src="img/tienbip.jpg">                 
+                    <div class="desc">Tiến Bịp</div>
+                </div>               
+                <div class="gallery">                
+                    <img src="img/hu.png">                 
+                    <div class="desc">Huấn Hoa Hồng</div>
+                </div>               
+                <div class="gallery">                
+                    <img src="img/dmt.jpg">
+                    <div class="desc">Dương Minh Tuyền</div>
+                </div>              
+                <div class="gallery">                
+                    <img src="img/kb.jpg" >               
+                <div class="desc">Khá Bảnh</div>
+                </div>
+                <div class="gallery">                
+                  <img src="img/khanh.jpg" >               
+              <div class="desc">Khánh Sky</div>
               </div>
+              <div class="gallery">                
+                <img src="img/hqdefault.jpg" >               
+            <div class="desc"> Đạt vinaphone</div>
             </div>
+            <div class="gallery">                
+              <img src="img/ngantroc.jpg" >               
+          <div class="desc">Ngân Trọc</div>
+          </div>
+          <div class="gallery">                
+            <img src="img/hoitamhoang.jpg" >               
+        <div class="desc">Hội Tam Hoàng</div>
+        </div>
+        <div class="gallery">                
+          <img src="img/long.webp" >               
+      <div class="desc">Long Phú Quốc</div>
+      </div>
+              </div>
 
-           </div>
+            </div>
+         </div>
+        <div class="col-md-7">
         <div class="status">
              <div class="self__search">
                <div class="self__search-status">
@@ -157,10 +228,33 @@
                 <a class="item  actives " href=""><img src="img/list.png">Xem theo danh sách</a>
                 <a class="item" href=""><img src="img/menu.png">Xem theo danh sách</a>
               </div>
+
+              <div class="post">
+              <div class="post-status">
+               <div class="img__post-status">
+                <img src="img/van.jpg">
+               </div> 
+               <div class="update-status">
+                <div class="update-text">
+                <p><strong>Trần Văn </strong><span class="edit-font-status">đã cập nhập trạng thái của anh ấy</span></p>
+                <p>1 ngày trước</p>
+               </div>
+               <div class="dots-many">
+                <img src="img/dots-menu.png">
+               </div>
+               </div>
+              </div>
+              <video width="100%" height="240" controls>
+                <source src="img/adu.mp4" type="video/mp4">
+              </video>
               
+              </div>
              </div>
         </div>
+        </div>
+        </div>
     </div>
+</div>
 </div>
    <script src="main.js"></script>
 </body>
