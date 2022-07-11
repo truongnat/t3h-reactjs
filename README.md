@@ -21,7 +21,7 @@
   - call(một kiểu string) vs apply(mảng) cho phép set giá trị của this khi gọi function.
   
   - Câu 3:
-  - tham chiếu của biến con vẫn bị thay dổi  vì do childer nó là một oj khi mình Spread operator thì childer nó đc lưu ở trong heap chứ k lưu trong 2 stack khác nhau
+  - tham chiếu của biến con vẫn bị thay dổi  vì do childer ( em nghĩ nó là một oj khi mình Spread operator thì childer nó đc lưu ở trong heap)
   - hiện tại em chưa có phương án giải quyết 
  
   
