@@ -22,7 +22,7 @@
   
   - Câu 3:
   - tham chiếu của biến con vẫn bị thay dổi  vì do childer ( em nghĩ nó là một oj khi mình Spread operator thì childer nó đc lưu ở trong heap)
-  - hiện tại em chưa có phương án giải quyết 
+  - em nghĩ dùng this để trỏ đến cloneFather
  
   
 
