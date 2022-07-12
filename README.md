@@ -7,6 +7,7 @@
  -     var numbTwo = [4, 5, 6];
  - //lấy các value của numbOne và numbTow thành value của  numberSum => mình muốn lấy tất cả các value của 2 biến khác nhau thì mình sẽ dùng Spread operator 
  -     var numbSum = [...numbOne, ...numbTwo];
+ - Rest operator lấy các thuộc tính của oj khi loại trừ
  - Destructuring là một cú pháp cho phép bạn gán các thuộc tính của một Object hoặc một Array.
  -   Có hai loại Destructuring: Destructuring Objects và Destructuring Arrays  
   -   
