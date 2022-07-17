@@ -35,11 +35,11 @@
 
 - filter() để tìm kiếm các phần tử trong mảng. trả về tất cả các đối tượng tìm được
 
-# forEach() duyệt qua từng phần tử của mảng 
+- forEach() duyệt qua từng phần tử của mảng 
 VD: array.forEach(function(item, index) {
 console.log(item. index)
 }); // sẽ lấy ra từng phần tử(item) và chỉ số(index) của phần tử đó //
 
-# push thêm 1 hoặc nhiều phần tử vào cuối mảng .push('Element1', 'Element2');
-# concat nối Array: Mang1.concat(Mang2) hợp nhất Bien2 vào Bien1
+- push thêm 1 hoặc nhiều phần tử vào cuối mảng .push('Element1', 'Element2');
+- concat nối Array: Mang1.concat(Mang2) hợp nhất Bien2 vào Bien1
 
