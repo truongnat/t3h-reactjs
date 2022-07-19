@@ -27,28 +27,40 @@
 
 
 
-// bài 3 -chưa tìm đk trung vị median
+// bài 3 
 
-const input3 =[12,46,32,64];
-
-
-
-function avg(element) {
-    let sum =0;      
-    element.forEach(function(number){
-        sum +=number;
-    })
-    return avg = sum / element.length;
-}
-console.log(avg(input3));
-
-var avgNumber =input3.map(function(number){
-    return number/2;
-})
-console.log(avgNumber);
+// const input3 =[12,46,32,64];
 
 
 
+// function avg(element) {
+//     let sum =0;      
+//     element.forEach(function(number){
+//         sum +=number;
+//     })
+//     return avg = sum / element.length;
+// }
+
+
+
+
+// function median(values){
+// 	values.sort(function(a,b){
+//   	return a-b;
+//   });
+//   var half = Math.floor(values.length / 2);
+  
+//   if (values.length % 2)
+//   	return values[half];
+//   else
+//   	return (values[half - 1] + values[half]) / 2.0;
+// }
+
+// var result = {
+//     mean :avg(input3),
+//     median: median(input3)
+// }
+// console.log(result);
 
 
 // // bài 4
@@ -110,3 +122,24 @@ console.log(avgNumber);
 // }}
 // };
 //  console.log([min,max,max-min]);
+
+
+
+
+
+// class person {
+//     constructor(name,year,hight){
+//         this.name = name;
+//         this.year = year;
+//         this.hight =hight;
+//         this.age = 2022-year;
+//     };
+// }
+
+// var tin = new person('Phạm Văn Tín',1995,'1m70');
+// var son = new person('Trần Ngọc Sơn',1996,'1m67');
+
+
+
+
+
