@@ -89,7 +89,7 @@ text-align: center;
   object-fit: cover;
 }
 .dots{
-  display: none;
+  display: flex;
  
   align-items: center;
 }
